@@ -1,26 +1,54 @@
-/*---MOBILE FIRST---*/
-#practical_info {
-    text-align: center;
-}
-
-#review {
-    text-align: center;
-}
-
-#img_michael {
-    height: 20rem;
-    width: auto;
-}
-
-#img_annette {
-    height: 20rem;
-    width: auto;
-}
-
-.staff_style {
+li {
     list-style: none;
 }
 
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.opening_hours {
+    list-style: none;
+    text-align: center;
+}
+
+.phone_hours {
+    list-style: none;
+    text-align: center;
+}
+
+.staff_img{
+    width: 15rem;
+    height: 100%;
+}
+
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
 @media only screen and (min-width: 1200px) {
+    #first_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+
+    #last_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    #last_section .section_wrapper .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+    }
 
 }

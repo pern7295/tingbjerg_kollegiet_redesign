@@ -8,6 +8,15 @@ body{
     font-size: 16px;
 }
 
+#menu{
+    position: fixed;
+}
+
+#menu_img{
+    position: fixed;
+}
+
+
 h1 {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
@@ -99,6 +108,9 @@ a:hover {
 
 .nav {
     display: none;
+    position: fixed;
+    z-index: -1
+
 }
 
 .nav li a{
