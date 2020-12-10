@@ -1,0 +1,148 @@
+/*----DETTE ER ET FÆLLES CSS, HVOR VI SKRIVER GENERELLE CSS REGLER IND (FX FONTTYPE OSV-------*/
+
+img {
+    width: 100%;
+}
+
+body{
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h3{
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans';
+}
+
+footer {
+    font-family: 'Open Sans';
+}
+
+li {
+    font-family: 'Open Sans';
+}
+
+a:link {
+    color: #253F8C;
+    font-family: 'Open Sans';
+}
+
+a:visited {
+    color: #D30000;
+    font-family: 'Open Sans';
+}
+
+a:hover {
+    color: #FEE818;
+    transition-duration: 0.3s;
+}
+
+
+/*------BURGERMENUIKON------*/
+#menu {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.bar{
+    height: 0.3rem;
+    width: 100%;
+    background-color: black;
+    display: block;
+    border-radius: 1rem;
+    transition: 0.4s ease;
+}
+
+#bar1{
+    transform: translateY(-1rem);
+}
+
+#bar3{
+    transform: translateY(1rem);
+}
+
+/*------JS-classes, animation-------*/
+
+.change .bar {
+    background-color: black;
+}
+
+.change #bar1{
+    transform: translateY(0.4rem) rotateZ(-45deg);
+    background-color: white;
+}
+
+.change #bar3{
+    transform: translateY(0rem) rotateZ(45deg);
+    background-color: white;
+}
+
+.change #bar2{
+    display: none;
+}
+
+/*-----------nav display & design-----------*/
+
+.nav {
+    display: none;
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav li{
+    list-style: none;
+    padding: 3rem;
+    margin-left: 2rem;
+    font-weight:
+}
+
+.nav li a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+/*-----------BURGER MENU DESIGN-----------*/
+
+.menu_img, #menubar{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.menu_img{
+    z-index: 1;
+    width: 0;
+    height: 0;
+    background-color: #131534;
+    transition: 0.3s ease;
+}
+
+#menubar {
+    z-index: 2;
+}
+
+.change_img{
+    width: 100%;
+    height: 100%;
+}
+.change {
+    display: block;
+}
+

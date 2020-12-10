@@ -1,0 +1,51 @@
+.splash_img {
+    background-image: url(images/stock_splash_mobile.jpg);
+    background-size: cover;
+    background position: 39% 10%;
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+
+}
+
+#splash_index {
+    position: relative;
+}
+
+#splash_index .section_wrapper01 {
+    position: relative;
+}
+
+#splash_index .section_wrapper02 {
+    position: relative;
+}
+
+.button01 {
+    background-color: #131534;
+    border: none;
+    color: white;
+    padding: 1.5rem 5rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: -18rem;
+    left: 5rem;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.button02 {
+    background-color: #131534;
+    border: none;
+    color: white;
+    padding: 1.5rem 5.4rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: -12rem;
+    left: 5rem;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
