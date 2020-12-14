@@ -30,6 +30,23 @@ section {
     left: 10vw;
 }
 
+.infobox {
+ display: block;
+
+text-align: center;
+    padding: 2rem;
+}
+
+.image-container img:hover {
+  transition:transform 0.25s ease;
+  width: 1000vw;
+  height: auto;
+}
+
+.apartment2{
+    padding: 2rem;
+}
+
 .image-container {
     display: flex;
     gap: 20px;
