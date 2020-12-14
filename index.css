@@ -3,6 +3,10 @@ a {
     color: white;
 }
 
+.welcome_section {
+    margin: 2rem;
+}
+
 #first_section {
     background-image: url(images/social_area01.jpg);
     background-size: cover;
@@ -13,7 +17,7 @@ a {
     color: white;
     display: grid;
     grid-template-columns: 0.5fr 4fr 0.5fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
     column-gap: 1rem;
     text-align: center;
 }
@@ -30,27 +34,33 @@ a {
     padding: 2rem;
 }
 
-.button1{
+.button1 {
     padding: 1rem;
     background-color: #27292a;
     border-radius: 0.3rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.button2{
+.button2 {
     padding: 1rem;
     background-color: #27292a;
     border-radius: 0.3rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
 
 /*------forms design--------*/
 
 .forms_formular {
-    max-width: 80vw;
+    max-width: 50vw;
     margin: 1rem auto;
     border: 0.2rem solid #27292a;
     padding: 1rem;
     background-color: #27292a;
     color: white;
+    border-radius: 0.3rem;
 
 }
 
@@ -61,21 +71,28 @@ label {
 }
 
 input {
-    border: 0.1rem solid #d43a75;
+    border: 0.1rem solid white;
     border-radius: 0.3rem;
+    width: 30vw;
+    font-size: 1.1rem;
 }
 
 .send_button {
-    background: white;
+    background: #eadede;
     color: #27292a;
     font-family: 'Open Sans';
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+    float: right;
+    border-radius: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.1rem;
 
 }
 
-.send_button:hover{
+.send_button:hover {
     background: #eadede;
     transition-duration: 0.2s;
 
@@ -83,22 +100,38 @@ input {
 
 @media only screen and (min-width: 800px) {
     #first_section .section_wrapper {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    padding: 2rem;
+        grid-column: 1 / 1;
+        grid-row: 3 / 3;
+        padding: 1rem;
+    }
+
+    #first_section .section_wrapper_2 {
+        grid-column: 3 / 3;
+        grid-row: 3 / 3;
+        padding: 1rem;
+    }
+
+    #first_section {
+        grid-template-columns: 2fr 0.5fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 1rem;
+        text-align: center;
+        display: ;
+    }
+
+    .button1 {
+    margin: 2rem
 }
 
-#first_section .section_wrapper_2 {
-    grid-column: 2 / 3;
-    grid-row: 3 / 3;
-    padding: 2rem;
+.button2 {
+    margin: 2rem
 }
 
-  #first_section {
-    grid-template-columns: 0.5fr 1fr 0.5fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    column-gap: 1rem;
-    text-align: center;
+    /*--------Velkommen, design--------------------*/
+.welcome_section .section_wrapper1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
 }
 
 }
