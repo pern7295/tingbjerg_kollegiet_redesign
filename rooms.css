@@ -1,0 +1,89 @@
+.splash_img {
+    background-image: url(room_images/Sk%C3%A6rmbillede%202020-12-09%20kl.%2014.56.43.png);
+    width: 100vw;
+    height: 56.25vw;
+    position: static;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    display: grid;
+}
+
+#splash_index {
+    position: relative;
+}
+
+#splash_index .section_wrapper01 {
+    position: relative;
+}
+
+#splash_index .section_wrapper02 {
+    position: relative;
+}
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/*Global styles*/
+body {
+    background: #ececec;
+}
+
+/*Header*/
+header {
+    top: 20vw
+}
+
+
+
+/*Main content*/
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+    margin: 40px 0;
+    left: 10vw;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-container figure {
+    flex-grow: 1;
+}
+
+.image-container figcaption {
+    padding: 20px;
+    background: #fff;
+}
+
+@media (max-width: 550px) {
+    .image-container {
+        overflow-x: scroll;
+        scroll-snap-type: mandatory;
+    }
+
+    .image-container figure {
+        flex-basis: 90%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+
+    .image-container img {
+        margin-right: 20px;
+    }
+}

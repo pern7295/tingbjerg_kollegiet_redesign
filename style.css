@@ -45,6 +45,7 @@ footer {
     font-family: 'Open Sans';
 }
 
+<<<<<<< HEAD
 .opening_hours {
     list-style: none;
     text-align: center;
@@ -53,6 +54,14 @@ footer {
 .phone_hours {
     list-style: none;
     text-align: center;
+=======
+figcaption {
+    font-family: 'Open Sans';
+}
+
+footer {
+    font-family: 'Open Sans';
+>>>>>>> tingbjerg_kollegiet_redesign/master
 }
 
 li {
