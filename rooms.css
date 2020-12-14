@@ -20,7 +20,7 @@ body {
 
 /*Main content*/
 main {
-    max-width: 900px;
+
     margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@ text-align: center;
     padding: 2rem;
 }
 
-.image-container img:hover {
+.image-container img:active {
   transition:transform 0.25s ease;
   width: 1000vw;
   height: auto;
@@ -46,6 +46,18 @@ text-align: center;
 .apartment2{
     padding: 2rem;
 }
+
+  .fineline {
+        background-color: #27292a;
+        padding: 0.1rem;
+
+    }
+
+    #fineline {
+        background-color: #27292a;
+        padding: 0.1rem;
+    }
+
 
 .image-container {
     display: flex;
