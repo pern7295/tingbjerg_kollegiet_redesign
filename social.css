@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+/*mobile first*/
+body{
+    height: 100%;
+}
+img{
+    width: 100%
+}
+section{
+    margin: 7vh;
+}
+
+ .fineline {
+        background-color: #27292a;
+        padding: 0.05rem;
+
+    }
+ #fineline {
+        background-color: #27292a;
+        padding: 0.05rem;
+    }
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*desktop*/
+
+main {
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1200px){
+    /*section: cafe_mosebryg*/
+    #cafe_mosebryg h2{
+        text-align: center;
+    }
+
+    #cafe_mosebryg .row1{
+        display: grid;
+        grid-template-columns: 3fr 0.001fr 2fr;
+        column-gap: 40px;
+
+    }
+    #cafe_mosebryg .col_wide{
+        display: grid;
+        grid-template-rows: 2;
+    }
+    #cafe_mosebryg .row_wide1{
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr;
+        column-gap: 10px;
+    }
+    #cafe_mosebryg .row_wide2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+    }
+    #cafe_mosebryg .col_narrow{
+        display: grid;
+        grid-template-rows: 2;
+        width: auto;
+    }
+    #cafe_mosebryg .row_narrow1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    /*section: committees*/
+    #committees h2{
+        text-align: center;
+    }
+    #committees h3{
+        text-align: center;
+    }
+    #committees .row1 {
+        display: grid;
+        grid-template-columns: 1fr  1fr  1fr;
+        column-gap: 10px;
+    }
+    #committees .row2{
+        display: grid;
+        grid-template-columns: 1fr  1fr  1fr;
+        column-gap: 10px;
+    }
+    #committees .col{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    /*section: media room*/
+
+     #media_room .row1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+    #media_room h3{
+        text-align: center;
+    }
+     #media_room .row2{
+        display: grid;
+        grid-template-columns: 1fr 0.001fr 2fr;
+        column-gap: 10px;
+    }
+    #media_room .row_1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 10px;
+    }
+    #media_room img{
+        height: 50vh;
+    }
+    #media_room .row_2{
+        display: flex;
+        grid-template-columns: 1fr;
+        column-gap: 10px;
+    }
+
+}
