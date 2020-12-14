@@ -9,6 +9,9 @@ body{
 img{
     width: 100%
 }
+section{
+    margin: 7vh;
+}
 
  .fineline {
         background-color: #27292a;
