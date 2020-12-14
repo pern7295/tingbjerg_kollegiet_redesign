@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 /*mobile first*/
 body{
     height: 100%;
@@ -21,6 +25,11 @@ p{
 
 
 /*desktop*/
+
+main {
+    margin: 0 auto;
+}
+
 @media only screen and (min-width: 1200px){
     /*section: cafe_mosebryg*/
     #cafe_mosebryg h2{
