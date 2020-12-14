@@ -1,51 +1,104 @@
-.splash_img {
-    background-image: url(images/stock_splash_mobile.jpg);
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#first_section {
+    background-image: url(images/social_area01.jpg);
     background-size: cover;
-    background position: 39% 10%;
-    position: relative;
-    max-width: 100%;
+    background-position: 49% 10%;
+    max-width: none;
+    width: 100vw;
     height: 100vh;
-
-}
-
-#splash_index {
-    position: relative;
-}
-
-#splash_index .section_wrapper01 {
-    position: relative;
-}
-
-#splash_index .section_wrapper02 {
-    position: relative;
-}
-
-.button01 {
-    background-color: #131534;
-    border: none;
     color: white;
-    padding: 1.5rem 5rem;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    position: absolute;
-    top: -18rem;
-    left: 5rem;
-    font-family: 'Work Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 0.5fr 4fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 1rem;
     text-align: center;
 }
 
-.button02 {
-    background-color: #131534;
-    border: none;
+#first_section .section_wrapper {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 2rem;
+}
+
+#first_section .section_wrapper_2 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+    padding: 2rem;
+}
+
+.button1{
+    padding: 1rem;
+    background-color: #27292a;
+    border-radius: 0.3rem;
+}
+
+.button2{
+    padding: 1rem;
+    background-color: #27292a;
+    border-radius: 0.3rem;
+}
+
+/*------forms design--------*/
+
+.forms_formular {
+    max-width: 80vw;
+    margin: 1rem auto;
+    border: 0.2rem solid #27292a;
+    padding: 1rem;
+    background-color: #27292a;
     color: white;
-    padding: 1.5rem 5.4rem;
-    text-align: center;
-    text-decoration: none;
+
+}
+
+label {
+    display: block;
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+input {
+    border: 0.1rem solid #d43a75;
+    border-radius: 0.3rem;
+}
+
+.send_button {
+    background: white;
+    color: #27292a;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-weight: bold;
     cursor: pointer;
-    position: absolute;
-    top: -12rem;
-    left: 5rem;
-    font-family: 'Work Sans', sans-serif;
+
+}
+
+.send_button:hover{
+    background: #eadede;
+    transition-duration: 0.2s;
+
+}
+
+@media only screen and (min-width: 800px) {
+    #first_section .section_wrapper {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 2rem;
+}
+
+#first_section .section_wrapper_2 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+    padding: 2rem;
+}
+
+  #first_section {
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 1rem;
     text-align: center;
+}
+
 }

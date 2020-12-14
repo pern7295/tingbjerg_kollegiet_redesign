@@ -30,23 +30,105 @@
                 </ui>
             </div>
 
+            <div id="navbar">
+                <ui id="navbar_design">
+                    <li class="line_design"><a href="practical_info.html">PRACTICAL INFO</a></li>
+                    <li class="line_design"><a href="rooms.html">ROOMS</a></li>
+                    <li id="nav_img" class="line_design"><a href="index.html"><img src="images/kollegiet_logo.svg" alt=""></a></li>
+                    <li class="line_design"><a href="facilities.html">FACILITIES</a></li>
+                    <li class="line_design"><a href="social.html">SOCIAL</a></li>
+                </ui>
+            </div>
         </nav>
+
+
         <div class="menu_img" id="menu_img"></div>
+
+
+
     </header>
     <main>
-        <section id="splash_index">
-           <div class="splash_img"></div>
-            <div class="section_wrapper01">
-                <div class="button01">JEG ER NY HER</div>
+        <section id="first_section">
+            <div class="section_wrapper">
+                <div class="grid_item_1">
+                    <div class="button1"><a href="rooms.html">I AM NEW</a></div>
+                </div>
             </div>
-            <div class="section_wrapper02">
-                <div class="button02">JEG BOR HER</div>
+            <div class="section_wrapper_2">
+                <div class="grid_item_2">
+                    <div class="button2"><a href="practical_info.html">I LIVE HERE</a></div>
+                </div>
+
+
             </div>
         </section>
 
+        <section id="form_section">
+            <form class="forms_formular">
+               <p>Any questions? Feel free to contact us, by this formular, and we will get back to you.</p>
+                <label for="full-name">Full name</label>
+                <input
+                    id="full-name"
+                    name="fname"
+                    type="text">
+                <label for="email">E-mail</label>
+                <input
+                    id="email"
+                    name="email"
+                    type="email">
+                <label for="message">Comments</label>
+                <input
+                id="message"
+                name="message"
+                type="message">
 
+                <button class="send_button">Send</button>
+            </form>
+
+        </section>
     </main>
 
-</body>
-</html>
+    <footer>
+           <div class="footer_section">
+            <div class="footer_item">
+                <h2>ADRESS</h2>
+                <ul>
+                    <li>Terrasserne 6-18</li>
+                    <li>2700 Brønshøj</li>
+                    <li>Denmark</li>
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h2>CONTAKT</h2>
+                <ul>
+                    <li>Michael Hemmingsen, operations chief</li>
+                    <li><span style="font-weight: bold">Phone:</span></li>
+                    <li>+45 12 34 56 78</li>
+                    <li><span style="font-weight: bold">E-mail:</span></li>
+                    <li>email@michael.example.dk</li>
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h2>FOR RESIDENTS</h2>
+                <ul>
+                    <li class="resident_li"><a href="practical_info.html#documents">➤ Documents for residents</a></li>
+                    <li class="resident_li"><a href="practical_info.html#practical_info">➤ Phone hours</a></li>
+                    <li class="resident_li"><a href="practical_info.html#practical_info">➤ Facilities opening hours</a></li>
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h2>COMMITEES</h2>
+                <ul>
+                    <li class="resident_li">➤ Brewery Commitee</li>
+                    <li class="resident_li">➤ Café Mosebryg</li>
+                    <li class="resident_li">➤ Music Room</li>
+                    <li class="resident_li">➤ Media Room</li>
+                    <li class="resident_li">➤ The B14 Room</li>
+                </ul>
+            </div>
+
+        </div>
+        </footer>
+
+</body></html>
 
