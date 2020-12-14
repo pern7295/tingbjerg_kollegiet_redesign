@@ -17,6 +17,7 @@ body {
 
 footer {
     padding: 3rem;
+    font-family: 'Open Sans';
 }
 
 #menu {
@@ -38,14 +39,6 @@ h1 {
 }
 
 
-font-family: 'Open Sans';
-}
-
-footer {
-    font-family: 'Open Sans';
-}
-
-<<<<<<< HEAD
 .opening_hours {
     list-style: none;
     text-align: center;
@@ -54,14 +47,6 @@ footer {
 .phone_hours {
     list-style: none;
     text-align: center;
-=======
-figcaption {
-    font-family: 'Open Sans';
-}
-
-footer {
-    font-family: 'Open Sans';
->>>>>>> tingbjerg_kollegiet_redesign/master
 }
 
 li {
