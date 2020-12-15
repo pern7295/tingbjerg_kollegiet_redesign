@@ -1,5 +1,8 @@
 /*----DETTE ER ET FÆLLES CSS, HVOR VI SKRIVER GENERELLE CSS REGLER IND (FX FONTTYPE OSV-------*/
 
+p{
+    font-family: 'Open Sans', sans-serif;
+}
 img {
     max-width: 100%;
     height: auto;
