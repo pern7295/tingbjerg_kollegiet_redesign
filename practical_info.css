@@ -86,13 +86,13 @@ img {
     }
 
 <<<<<<< HEAD
- .fineline { color: black;
+ .fineline { color: #ffffff;
     border: 0.04rem solid;
     margin-bottom: 10px;
 }
 
     #fineline {
-         color: black;
+         color: #ffffff;
     border: 0.04rem solid;
     margin-bottom: 10px;
 }
@@ -105,21 +105,21 @@ img {
 /*STYLE AF LINE*/
 
 #fineline {
-    background-color: #D10310;
+    background-color: #ffffff;
      padding: 0.04rem;
 }
 
 .fineline{
-background-color: #D10310;
+background-color: #ffffff;
     padding: 0.04rem;
 }
 
 h1{
-color: #D10310;
+color: #000000;
 }
 h2{
-    color: #D10310;
+    color: #000000;
 }
 h3{
-    color: #D10310;
+    color: #000000;
 }

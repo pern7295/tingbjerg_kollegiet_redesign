@@ -13,7 +13,7 @@ img {
 body {
     font-size: 16px;
     margin: 0;
-    background-color: #eaeaea;
+    background-color: #ded7d7;
     font-family: 'Open Sans';
     width: 100vw;
     height: 56.25vw;
@@ -45,6 +45,7 @@ h1 {
 
 h2 {
     text-align: center;
+    color: black;
 }
 
 
@@ -62,6 +63,7 @@ li {
     font-family: 'Open Sans';
     list-style: none;
 }
+
 
 a:link {
     color: #000000;
@@ -184,21 +186,25 @@ footer a{
 
 footer {
     color: white;
-    background-color: #27292a;
+    background-color: rgba(255, 255, 255, 0.83);
 }
 
 .footer_item h2 {
     text-align: center:
 }
 
+footer a {
+    color: black;
+}
+
 footer ul {
     text-align: center;
     padding: 0;
-    color: white;
+    color: #000000;
 }
 
 .resident_li a {
-    color: white;
+    color: #000000;
 }
 
 
@@ -216,7 +222,7 @@ footer ul {
 
     #navbar {
         display: inline-block;
-        background-color: rgba(209, 3, 16, 0.83);
+        background-color: rgba(255, 255, 255, 0.83);
         width: 110vw;
         transform: translate(-3%);
     }
@@ -245,11 +251,11 @@ footer ul {
         text-align: center;
         text-decoration: none;
         font-size: 1rem;
-        color: white;
+        color: #000000;
     }
 
     a:visited {
-        color: white;
+        color: #000000;
     }
 
     a:active {

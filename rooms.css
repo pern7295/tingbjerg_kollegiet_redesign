@@ -51,15 +51,20 @@ text-align: center;
     padding: 2rem;
 }
 
-  .fineline { color: black;
+  .fineline { color: white;
     border: 0.5px solid;
     margin-bottom: 10px;
 }
 
     #fineline {
-         color: black;
+         color: white;
     border: 1.5px solid;
     margin-bottom: 10px;
+}
+
+.col_1{
+    width: 50rem;
+    padding: 5rem;
 }
 
 
