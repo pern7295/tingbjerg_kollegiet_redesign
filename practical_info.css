@@ -66,12 +66,7 @@ img {
 
 @media only screen and (min-width: 800px) {
 
-    #first_section {
-        background-color: rgb(239, 234, 223);
-    }
-    #last_section {
-        background-color: rgba(88, 181, 138, 0.46);
-    }
+
 
     #first_section .section_wrapper {
         display: grid;
