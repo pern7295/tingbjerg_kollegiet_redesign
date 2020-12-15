@@ -216,7 +216,7 @@ footer ul {
 
     #navbar {
         display: inline-block;
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(209, 3, 16, 0.83);
         width: 110vw;
         transform: translate(-3%);
     }
