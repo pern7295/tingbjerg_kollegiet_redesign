@@ -8,6 +8,9 @@ img {
     width: 100%;
     vertical-align: middle;
 }
+p{
+    font-family: 'Open Sans', sans-serif;
+}
 
 /*Global styles*/
 body {
@@ -20,6 +23,10 @@ body {
 
 /*Main content*/
 main {
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
     margin: 0 auto;
 }
 
@@ -36,7 +43,7 @@ text-align: center;
     padding: 2rem;
 }
 
-.image-container img:hover {
+.image-container img:active {
   transition:transform 0.25s ease;
   width: 1000vw;
   height: auto;
@@ -45,6 +52,18 @@ text-align: center;
 .apartment2{
     padding: 2rem;
 }
+
+  .fineline { color: black;
+    border: 0.5px solid;
+    margin-bottom: 10px;
+}
+
+    #fineline {
+         color: black;
+    border: 1.5px solid;
+    margin-bottom: 10px;
+}
+
 
 .image-container {
     display: flex;
