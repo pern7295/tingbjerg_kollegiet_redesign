@@ -1,5 +1,5 @@
 * {
-/*    background-color: rgb(208, 218, 224);*/
+/*background-color: white;*/
     margin: 0;
     box-sizing: border-box;
 }
@@ -18,49 +18,25 @@ section{
 
  .fineline {
 /*       background-color: #27292a;*/
+     background-color: white;
         padding: 0.05rem;
 
     }
  #fineline {
 /*       background-color: #27292a;*/
+     background-color: white;
         padding: 0.05rem;
     }
 p{
   font-family: 'Open Sans', sans-serif;
+       margin: 1rem;
 }
 
-/*Line style*/
-
-/*
-h2{
-    color: #D10310;
-}
 h3{
-     color: #D10310;
-}
-h4{
-     color: #D10310;
-}
-*/
-
-p{
-    margin: 1rem;
+    margin: 0.5rem;
+    text-align: center;
 }
 
-.fineline{
-    margin: 1rem;
-background-color: white;
-}
-#fineline{
-    margin: 1rem;
- background-color: white;
-}
-
-#committees .col{
-/*  border: 0.1rem solid #27428A;*/
-/*   background-color:rgba(39, 66, 138, 0.15);  */
-
-}
 #committees .top{
     border: 0.05rem solid #D10310;
 }
@@ -79,37 +55,44 @@ main {
 
     #cafe_mosebryg .row1{
         display: grid;
-        grid-template-columns: 3fr 0.001fr 2fr;
+        grid-template-columns: 3fr 0.001fr 1fr;
         column-gap: 40px;
-
     }
+
     #cafe_mosebryg .col_wide{
         display: grid;
         grid-template-rows: 2;
     }
     #cafe_mosebryg .row_wide1{
         display: grid;
-        grid-template-columns: 1.5fr 3fr;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr;
         column-gap: 10px;
     }
+/*
     #cafe_mosebryg .row_wide1 img{
         height: 38vh;
     }
+*/
+/*
     #cafe_mosebryg .row_wide2{
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 40px;
     }
+*/
     #cafe_mosebryg .col_narrow{
         display: grid;
         grid-template-rows: 2;
         width: auto;
     }
+/*
     #cafe_mosebryg .row_narrow1{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
+        grid-template-columns: 0.5fr fr;
+        column-gap: 0.5rem;
+        margin: 0;
     }
+*/
 
     /*section: committees*/
     #committees h2{
@@ -151,14 +134,19 @@ main {
     }
     #media_room .row_1{
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         column-gap: 10px;
     }
 
+
     #media_room .row_2{
-        display: flex;
-        grid-template-columns: 1fr;
-        column-gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+    }
+
+    ul{
+        list-style-type: circle;
     }
 
 }
