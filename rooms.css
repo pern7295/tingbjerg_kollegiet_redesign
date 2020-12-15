@@ -14,7 +14,7 @@ p{
 
 /*Global styles*/
 body {
-    background: #ececec;
+    background: rgb(239, 234, 223);
 }
 
 /*Header*/
@@ -23,7 +23,11 @@ body {
 
 /*Main content*/
 main {
+<<<<<<< HEAD
 
+=======
+background: rgb(239, 234, 223);
+>>>>>>> tingbjerg_kollegiet_redesign/master
     margin: 0 auto;
 }
 
@@ -51,15 +55,20 @@ text-align: center;
     padding: 2rem;
 }
 
-  .fineline { color: black;
-    border: 0.5px solid;
+  .fineline { color: white;
+    border: 0.07rem solid;
     margin-bottom: 10px;
 }
 
     #fineline {
-         color: black;
-    border: 1.5px solid;
+         color: white;
+    border: 0.07rem solid;
     margin-bottom: 10px;
+}
+
+.col_1{
+    width: 50rem;
+    padding: 5rem;
 }
 
 

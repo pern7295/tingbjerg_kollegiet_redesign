@@ -4,10 +4,13 @@ p{
 * {
     margin: 0;
     box-sizing: border-box;
+
 }
 li {
     list-style: none;
 }
+
+
 
 h2 {
     text-align: center;
@@ -63,6 +66,8 @@ img {
 
 @media only screen and (min-width: 800px) {
 
+
+
     #first_section .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 0.001fr 1fr;
@@ -86,14 +91,14 @@ img {
     }
 
 <<<<<<< HEAD
- .fineline { color: black;
-    border: 0.04rem solid;
+ .fineline { color: #ffffff;
+    border: 0.07rem solid;
     margin-bottom: 10px;
 }
 
     #fineline {
-         color: black;
-    border: 0.04rem solid;
+         color: #ffffff;
+    border: 0.07rem solid;
     margin-bottom: 10px;
 }
 
@@ -105,21 +110,21 @@ img {
 /*STYLE AF LINE*/
 
 #fineline {
-    background-color: #D10310;
-     padding: 0.04rem;
+    background-color: #ffffff;
+     padding: 0.07rem;
 }
 
 .fineline{
-background-color: #D10310;
-    padding: 0.04rem;
+background-color: #ffffff;
+    padding: 0.07rem;
 }
 
 h1{
-color: #D10310;
+color: #000000;
 }
 h2{
-    color: #D10310;
+    color: #000000;
 }
 h3{
-    color: #D10310;
+    color: #000000;
 }
