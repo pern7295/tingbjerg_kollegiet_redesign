@@ -116,9 +116,7 @@ main {
         grid-template-columns: 1fr 2fr;
         column-gap: 10px;
     }
-    #media_room img{
-        height: 50vh;
-    }
+
     #media_room .row_2{
         display: flex;
         grid-template-columns: 1fr;
