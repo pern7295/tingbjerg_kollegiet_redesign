@@ -52,13 +52,13 @@ text-align: center;
 }
 
   .fineline { color: white;
-    border: 0.5px solid;
+    border: 0.07rem solid;
     margin-bottom: 10px;
 }
 
     #fineline {
          color: white;
-    border: 1.5px solid;
+    border: 0.07rem solid;
     margin-bottom: 10px;
 }
 

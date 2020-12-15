@@ -87,13 +87,13 @@ img {
 
 <<<<<<< HEAD
  .fineline { color: #ffffff;
-    border: 0.04rem solid;
+    border: 0.07rem solid;
     margin-bottom: 10px;
 }
 
     #fineline {
          color: #ffffff;
-    border: 0.04rem solid;
+    border: 0.07rem solid;
     margin-bottom: 10px;
 }
 
@@ -106,12 +106,12 @@ img {
 
 #fineline {
     background-color: #ffffff;
-     padding: 0.04rem;
+     padding: 0.07rem;
 }
 
 .fineline{
 background-color: #ffffff;
-    padding: 0.04rem;
+    padding: 0.07rem;
 }
 
 h1{
