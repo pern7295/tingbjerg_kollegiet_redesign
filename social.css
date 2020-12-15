@@ -1,9 +1,6 @@
 * {
-<<<<<<< HEAD
 /*    background-color: rgb(208, 218, 224);*/
-=======
 /*background-color: white;*/
->>>>>>> tingbjerg_kollegiet_redesign/master
     margin: 0;
     box-sizing: border-box;
 }
@@ -22,19 +19,13 @@ section{
 
  .fineline {
 /*       background-color: #27292a;*/
-<<<<<<< HEAD
-=======
      background-color: white;
->>>>>>> tingbjerg_kollegiet_redesign/master
         padding: 0.05rem;
 
     }
  #fineline {
 /*       background-color: #27292a;*/
-<<<<<<< HEAD
-=======
      background-color: white;
->>>>>>> tingbjerg_kollegiet_redesign/master
         padding: 0.05rem;
     }
 p{
@@ -42,7 +33,6 @@ p{
        margin: 1rem;
 }
 
-<<<<<<< HEAD
 /*Line style*/
 
 /*
@@ -75,13 +65,11 @@ background-color: white;
 /*   background-color:rgba(39, 66, 138, 0.15);  */
 
 }
-=======
 h3{
     margin: 0.5rem;
     text-align: center;
 }
 
->>>>>>> tingbjerg_kollegiet_redesign/master
 #committees .top{
     border: 0.05rem solid #D10310;
 }
@@ -182,11 +170,6 @@ main {
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
     }
-
-<<<<<<< HEAD
-=======
-
->>>>>>> tingbjerg_kollegiet_redesign/master
     #media_room .row_2{
         display: grid;
         grid-template-columns: 1fr 1fr;
