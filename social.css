@@ -51,8 +51,11 @@ main {
     }
     #cafe_mosebryg .row_wide1{
         display: grid;
-        grid-template-columns: 1.5fr 1.5fr 1.5fr;
+        grid-template-columns: 1.5fr 3fr;
         column-gap: 10px;
+    }
+    #cafe_mosebryg .row_wide1 img{
+        height: 38vh;
     }
     #cafe_mosebryg .row_wide2{
         display: grid;
@@ -113,9 +116,7 @@ main {
         grid-template-columns: 1fr 2fr;
         column-gap: 10px;
     }
-    #media_room img{
-        height: 50vh;
-    }
+
     #media_room .row_2{
         display: flex;
         grid-template-columns: 1fr;
