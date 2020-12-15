@@ -16,7 +16,7 @@ h2 {
 
 h3 {
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
 /*    text-decoration: underline;*/
 }
 
@@ -115,7 +115,7 @@ background-color: #D10310;
 }
 
 h1{
-/*    color: #D10310; */
+color: #D10310;
 }
 h2{
     color: #D10310;
