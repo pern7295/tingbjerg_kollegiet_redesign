@@ -3,6 +3,8 @@
 img {
     max-width: 100%;
     height: auto;
+
+    vertical-align: middle;
 }
 
 body {
@@ -211,7 +213,7 @@ footer ul {
 
     #navbar {
         display: inline-block;
-        background-color: #27292a;
+        background-color: rgb(0, 0, 0);
         width: 110vw;
         transform: translate(-3%);
     }
