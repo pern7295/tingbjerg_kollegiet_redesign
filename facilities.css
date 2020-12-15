@@ -11,6 +11,14 @@ p{
     margin-bottom: 10px;
 }
 
+
+img {
+    max-width: 100%;
+    height: auto;
+
+    vertical-align: middle;
+}
+
 /*.v_line {
     border-left: 6px solid green;
   height: 500px;

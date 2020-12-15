@@ -53,16 +53,16 @@ text-align: center;
     padding: 2rem;
 }
 
-  .fineline {
-        background-color: #27292a;
-        padding: 0.1rem;
-
-    }
+  .fineline { color: black;
+    border: 0.5px solid;
+    margin-bottom: 10px;
+}
 
     #fineline {
-        background-color: #27292a;
-        padding: 0.1rem;
-    }
+         color: black;
+    border: 1.5px solid;
+    margin-bottom: 10px;
+}
 
 
 .image-container {

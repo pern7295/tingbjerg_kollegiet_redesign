@@ -65,12 +65,12 @@ img {
 
     #first_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 0.01fr 1fr;
+        grid-template-columns: 1fr 0.001fr 1fr;
     }
 
     #last_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 0.01fr 1fr 0.01fr 1fr;
+        grid-template-columns: 1fr 0.00001fr 1fr 0.01fr 1fr;
     }
 
     #last_section .section_wrapper .col {
@@ -82,9 +82,21 @@ img {
     }
 
     #first_section .col {
-        margin: 1rem;
+        margin: 0rem;
     }
 
+<<<<<<< HEAD
+ .fineline { color: black;
+    border: 0.5px solid;
+    margin-bottom: 10px;
+}
+
+    #fineline {
+         color: black;
+    border: 0.04rem solid;
+    margin-bottom: 10px;
+}
+=======
     .fineline {
 /*        background-color: #27292a;*/
 /*        padding: 0.04rem;*/
@@ -95,6 +107,7 @@ img {
 /*        background-color: #27292a;*/
 /*       padding: 0.04rem;*/
     }
+>>>>>>> origin/master
 
     .staff_img {
     width: 50%;
