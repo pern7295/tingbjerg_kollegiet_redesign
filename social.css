@@ -17,17 +17,19 @@ section{
     margin: 7vh;
 }
 
+/*
  .fineline {
-/*       background-color: #27292a;*/
+     background-color: #27292a;
      background-color: white;
         padding: 0.05rem;
 
     }
  #fineline {
-/*       background-color: #27292a;*/
+ background-color: #27292a;
      background-color: white;
         padding: 0.05rem;
     }
+*/
 p{
   font-family: 'Open Sans', sans-serif;
        margin: 1rem;

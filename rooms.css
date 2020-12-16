@@ -30,7 +30,8 @@ background: rgb(239, 234, 223);
 section {
     text-align: center;
 
-    left: 10vw;
+/*    left: 10vw;*/
+    margin: 3rem;
 }
 
 
@@ -51,7 +52,9 @@ text-align: center;
     padding: 2rem;
 }
 
-  .fineline { color: white;
+
+  .fineline {
+color: white;
     border: 0.07rem solid;
     margin-bottom: 10px;
 }
@@ -61,6 +64,7 @@ text-align: center;
     border: 0.07rem solid;
     margin-bottom: 10px;
 }
+*/
 
 .col_1{
     width: 50rem;

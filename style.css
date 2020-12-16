@@ -36,7 +36,9 @@ background-color: #eaeaea;
     width: 100vw;
     height: 56.25vw;
 }
-
+main{
+    margin: 3rem;
+}
 
 footer {
     padding: 3rem;

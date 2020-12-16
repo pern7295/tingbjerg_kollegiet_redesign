@@ -96,16 +96,19 @@ img {
         margin: 0rem;
     }
 
- .fineline { color: #ffffff;
-    border: 0.07rem solid;
+
+ .fineline {
+color: #ffffff;
+border: 0.07rem solid;
     margin-bottom: 10px;
 }
 
     #fineline {
-         color: #ffffff;
+color: #ffffff;
     border: 0.07rem solid;
     margin-bottom: 10px;
 }
+
 
     .staff_img {
     width: 50%;
@@ -114,6 +117,7 @@ img {
 }
 /*STYLE AF LINE*/
 
+/*
 #fineline {
     background-color: #ffffff;
      padding: 0.07rem;
@@ -123,6 +127,7 @@ img {
 background-color: #ffffff;
     padding: 0.07rem;
 }
+*/
 
 h1{
 color: #000000;
