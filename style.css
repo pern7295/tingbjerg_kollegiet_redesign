@@ -1,5 +1,17 @@
 /*----DETTE ER ET FÆLLES CSS, HVOR VI SKRIVER GENERELLE CSS REGLER IND (FX FONTTYPE OSV-------*/
 
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+}
 p{
     font-family: 'Open Sans', sans-serif;
 }
@@ -13,16 +25,13 @@ img {
 body {
     font-size: 16px;
     margin: 0;
-<<<<<<< HEAD
+/*
 background-color: #eaeaea;
     background-color: #f1f1f2;
-=======
+*/
+
     background-color: rgb(239, 234, 223);
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> tingbjerg_kollegiet_redesign/master
->>>>>>> origin/master
+
     font-family: 'Open Sans';
     width: 100vw;
     height: 56.25vw;
@@ -277,12 +286,21 @@ footer ul {
 
 
 /*--------FOOTER DESIGN--------*/
-
+    footer{
+         padding: 1.5rem;
+    }
 .footer_section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 1rem;
+
 }
+    .footer_section h2{
+        font-size: 1rem;
+    }
+    .footer_section li{
+        font-size: 0.6rem;
+    }
 
     }
 
