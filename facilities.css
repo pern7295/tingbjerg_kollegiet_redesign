@@ -1,71 +1,133 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
 p{
     font-family: 'Open Sans', sans-serif;
 }
-#facilities_second h2{
-    text-align: center;
+
+/*Global styles*/
+body {
+    background: rgb(239, 234, 223);
 }
 
-.hr_line {
-    color: black;
-    border: 1.5px solid;
+/*Header*/
+
+
+
+/*Main content*/
+main {
+background: rgb(239, 234, 223);
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+
+    left: 10vw;
+}
+
+
+.infobox {
+ display: block;
+
+text-align: center;
+    padding: 2rem;
+}
+
+.image-container img:active {
+  transition:transform 0.25s ease;
+  width: 1000vw;
+  height: auto;
+}
+
+.apartment2{
+    padding: 2rem;
+}
+
+  .fineline { color: white;
+    border: 0.07rem solid;
     margin-bottom: 10px;
 }
 
-
-img {
-    max-width: 100%;
-    height: auto;
-
-    vertical-align: middle;
+    #fineline {
+         color: white;
+    border: 0.07rem solid;
+    margin-bottom: 10px;
 }
 
-/*.v_line {
-    border-left: 6px solid green;
-  height: 500px;
-}*/
-@media (min-width: 600px) {
-
-#facilities_second .section_wrapper_second_01 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 40px;
-
+.col_1{
+    width: 50rem;
+    padding: 5rem;
 }
 
-#facilities .col {
+
+
+.image-container {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-}
-/*------SPLASHVIDEO------*/
-
-/*
-@media (min-aspect-ratio: 16/9) {
-   #videoBG {
-    position:fixed;
-    z-index: -1;
-}
-    #videoBG {
-        width:100%;
-        height: auto;
-    }
-}
-*/
-
-@media (max-aspect-ratio: 16/9) {
-    #videoBG {
-        width:auto;
-        height: 100%;
-    }
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-end;
 }
 
-@media (max-width: 767px) {
-    #videoBG {
-        display: none;
+
+.image-container figure {
+    flex-grow: 1;
+}
+
+.image-container figcaption {
+    padding: 20px;
+    background: #fff;
+    align-content: stretch;
+    text-align: center center;
+    height: 35rem;
+}
+
+/*Line grid til plantegninger*/
+#appartment_image_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+column-gap: 1rem;
+}
+#appartment_image_1 .col_1{
+    text-align: left;
+}
+#appartment_image_1 img{
+/*   height: 50%;*/
+    width: 80%;
+}
+#appartment_image_2{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+column-gap: 1rem;
+}
+#appartment_image_2 .col_1{
+    text-align: left;
+}
+#appartment_image_2 img{
+/*   height: 50%;*/
+    width: 80%;
+}
+
+@media (max-width: 550px) {
+    .image-container {
+        overflow-x: scroll;
+        scroll-snap-type: mandatory;
     }
-    body {
-        background: url('.jpg');
-        background-size: cover;
+
+    .image-container figure {
+        flex-basis: 90%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+
+    .image-container img {
+        margin-right: 20px;
     }
 }
