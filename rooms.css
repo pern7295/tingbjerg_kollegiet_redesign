@@ -88,6 +88,7 @@ color: white;
 }
 
 /*Line grid til plantegninger*/
+
 #appartment_image_1{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -115,15 +116,38 @@ column-gap: 1rem;
 
 @media (max-width: 550px) {
 
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+
+    main{
+       width: 100vw;
+    }
+
     section {
         margin: 0;
-        width: 80vw;
+
     }
 
     body {
-        width: 80vw;
+        width: 100vw;
     }
 
+    #appartment_image_1 {
+        width: 97vw;
+    }
     #appartment_image_1 .col_1 {
         margin: 2rem;
         width: 15rem;
@@ -131,6 +155,10 @@ column-gap: 1rem;
 
      #appartment_image_1 .img {
         justify-items: end;
+    }
+
+    #appartment_image_1 .col {
+        justify-content: center;
     }
 
      #appartment_image_2 .col_1 {
