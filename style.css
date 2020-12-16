@@ -166,7 +166,6 @@ a:hover {
     list-style: none;
     padding: 3rem;
     margin-left: 2rem;
-    font-weight:
 }
 
 .nav li a:hover {
@@ -216,7 +215,7 @@ footer {
 }
 
 .footer_item h2 {
-    text-align: center:
+    text-align: center;
 }
 
 footer a {
@@ -238,7 +237,7 @@ footer ul {
 
     /*---navmenu,desktop--*/
     #nav_img {
-        display: relative;
+
         width: 5rem;
     }
 
