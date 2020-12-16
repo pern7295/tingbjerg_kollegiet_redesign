@@ -80,11 +80,58 @@ main {
     margin: 0 auto;
 }
 
+@media (max-width: 550px) {
+
+
+    .image-container {
+
+        scroll-snap-type: mandatory;
+        width: 90vw;
+    }
+
+    .image-container figure {
+        flex-basis: 90%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+        width: auto;
+    }
+
+    .image-container img {
+        margin-right: 20px;
+        width: auto;
+    }
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-container figure {
+    flex-grow: 1;
+}
+
+.image-container figcaption {
+    padding: 20px;
+    background: #fff;
+}
+
 @media only screen and (min-width: 1200px){
     /*section: cafe_mosebryg*/
     #cafe_mosebryg h2{
         text-align: center;
     }
+    .image-container figure {
+    flex-grow: 1;
+        width: 40vw;
+}
+
+.image-container figcaption {
+    padding: 20px;
+    background: #fff;
+    height: 32vw;
+}
 
     #cafe_mosebryg .row1{
         display: grid;
