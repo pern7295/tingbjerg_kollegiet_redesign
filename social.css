@@ -96,7 +96,7 @@ main {
 
     .image-container {
 
-        scroll-snap-type: mandatory;
+
         width: 90vw;
     }
 
@@ -154,7 +154,7 @@ main {
 
     #cafe_mosebryg .col_wide {
         display: grid;
-        grid-template-rows: 2;
+        grid-template-rows: 2fr;
     }
 
     #cafe_mosebryg .row_wide1 {
@@ -177,7 +177,7 @@ main {
 */
     #cafe_mosebryg .col_narrow {
         display: grid;
-        grid-template-rows: 2;
+        grid-template-rows: 2fr;
         width: auto;
     }
 
