@@ -81,7 +81,7 @@ img {
 
     #last_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 0.00001fr 1fr 0.01fr 1fr;
+        grid-template-columns: 1fr 0.00001fr 1fr 0.00001fr 1fr;
     }
 
     #last_section .section_wrapper .col {
