@@ -3,6 +3,8 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+
 p{
     font-family: 'Open Sans', sans-serif;
 }
@@ -174,6 +176,9 @@ input {
         grid-template-columns: 1fr 0.001fr 1fr;
         grid-column-gap: 2rem;
     }
+    #welcome_section video{
+        width: 100%;
+    }
 /*
     #welcome_section .section_wrapper1 .col1{
         grid-column: 1/2;
@@ -214,4 +219,3 @@ height: 100%;
     }
 
 }
-
