@@ -13,12 +13,17 @@ img {
 body {
     font-size: 16px;
     margin: 0;
+<<<<<<< HEAD
 background-color: #eaeaea;
     background-color: #f1f1f2;
+=======
+    background-color: rgb(239, 234, 223);
+>>>>>>> origin/master
     font-family: 'Open Sans';
     width: 100vw;
     height: 56.25vw;
 }
+
 
 footer {
     padding: 3rem;
