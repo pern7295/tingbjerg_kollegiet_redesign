@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+navbar {
+    top: 0;
+}
+
 img {
     width: 100%;
     vertical-align: middle;
@@ -17,7 +21,7 @@ body {
     background: rgb(239, 234, 223);
 }
 
-<<<<<<< HEAD
+
 /*
 .hr_line {
     color: black;
@@ -32,9 +36,7 @@ body {
 main {
 background: rgb(239, 234, 223);
     margin: 0 auto;
->>>>>>> origin/master
 }
-*/
 
 section {
     text-align: center;

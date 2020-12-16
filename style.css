@@ -23,8 +23,8 @@ img {
 }
 
 body {
-    font-size: 16px;
-    margin: 0;
+        font-size: 16px;
+
 /*
 background-color: #eaeaea;
     background-color: #f1f1f2;
@@ -38,7 +38,11 @@ background-color: #eaeaea;
 }
 /*
 main{
+<<<<<<< HEAD
 margin: 3rem;
+=======
+    margin: 0rem 3rem 3rem 0rem;
+>>>>>>> origin/master
 }
 */
 
